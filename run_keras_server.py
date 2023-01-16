@@ -17,21 +17,21 @@ app = flask.Flask(__name__)
 model = None
 labels = ['Guaguas de pan', 'Hamburguesa', 'Pizza', 'Seco de Pollo', 'Sushi', 'Tacos', 'bolon', 'cazuela', 'ceviche', 'empanadas', 'encebollado', 'encocado de pescado', 'fanesca', 'lasagna', 'tigrillo']
 caloriesDict = {
-    'Guaguas de pan': 300,
-    'Hamburguesa': 500,
-    'Pizza': 400,
-    'Seco de Pollo': 300,
-    'Sushi': 200,
-    'Tacos': 300,
-    'bolon': 300,
-    'cazuela': 300,
-    'ceviche': 300,
-    'empanadas': 300,
-    'encebollado': 300,
-    'encocado de pescado': 300,
-    'fanesca': 300,
-    'lasagna': 300,
-    'tigrillo': 300
+    'Guaguas de pan': 372.4,
+    'Hamburguesa': 295,
+    'Pizza': 266,
+    'Seco de Pollo': 542.8,
+    'Sushi': 350,
+    'Tacos': 226,
+    'bolon': 331,
+    'cazuela': 329,
+    'ceviche': 173,
+    'empanadas': 267,
+    'encebollado': 245,
+    'encocado de pescado': 228.2,
+    'fanesca': 193,
+    'lasagna': 336,
+    'tigrillo': 136
 }
 
 
